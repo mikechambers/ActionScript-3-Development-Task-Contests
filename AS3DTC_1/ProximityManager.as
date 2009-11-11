@@ -30,7 +30,7 @@ package
 	
 	public class ProximityManager
 	{
-		public function ProximityManager(gridSize:uint, bounds:Rectangle = null)
+		public function ProximityManager(gridSize:uint, bounds:Rectangle)
 		{
 			super();
 		}

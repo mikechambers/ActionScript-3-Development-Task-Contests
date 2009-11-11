@@ -6,6 +6,9 @@ mesh@adobe.com
 
 Change Log
 
+Release 0.4 (November 11, 2009)
+	-bounds argument is now required in ProximityManager constructor. This specifies the bounds of the collision detection / grid area.
+
 Release 0.3 (November 11, 2009)
 	-Fixed Release dates in README.txt
 	-Added visual validation code to TestRunner.as (thanks to Sean Christmann for the help)
