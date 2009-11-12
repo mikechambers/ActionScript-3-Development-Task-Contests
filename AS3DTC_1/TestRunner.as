@@ -95,7 +95,7 @@ package
 			var checkSprite:Sprite = new Sprite();
 			
 			checkSprite.graphics.beginFill( 0xFF00FF , 1 );
-			checkSprite.graphics.drawCircle( 0 , 0 , 10 );
+			checkSprite.graphics.drawCircle( 10 , 10 , 10 );
 			
 			checkSprite.x = Math.random() * bounds.width;
 			checkSprite.y = Math.random() * bounds.height;
@@ -165,7 +165,7 @@ package
 				obj.y = Math.random() * bounds.height;
 				
 				obj.graphics.beginFill( 0xff9933 , 1 );
-				obj.graphics.drawCircle( 0 , 0 , 5 );
+				obj.graphics.drawCircle( 5 , 5 , 5 );
 				obj.graphics.endFill();
 				
 				items.push(obj);
