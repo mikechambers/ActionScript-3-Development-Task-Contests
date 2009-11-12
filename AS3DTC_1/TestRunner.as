@@ -42,6 +42,8 @@ package
 	import flash.text.TextField;
 	
 	import flash.events.Event;
+	import flash.events.TimerEvent;
+	import flash.utils.Timer;
 
 	[SWF(width="500", height="450", frameRate="24", backgroundColor="#FFFFFF")]
 	public class TestRunner extends Sprite
@@ -60,6 +62,8 @@ package
 
 		private var bounds:Rectangle;
 		private var outputField:TextField;
+	
+		private var timer:Timer;
 		
 		public function TestRunner()
 		{			
@@ -86,6 +90,19 @@ package
 			outputField.height = bounds.height;
 			
 			addChild(outputField);			
+			
+			//wait one second until we start the tests
+			//to make sure all player initialization is completed
+			timer = new Timer(1000);
+			timer.addEventListener(TimerEvent.TIMER, onTimer);
+			timer.start();
+		}
+		
+		private function onTimer(e:TimerEvent):void
+		{
+			timer.stop();
+			timer.removeEventListener(TimerEvent.TIMER, onTimer);
+			timer = null;
 			
 			runTests();
 		}

@@ -6,6 +6,9 @@ mesh@adobe.com
 
 Change Log
 
+Release 0.7 (November 12, 2009)
+	-TestRunner now waits one second after it has loaded before it runs the performance tests.
+
 Release 0.6 (November 12, 2009)
 	-checkResults now removes all result items from the stage. This makes it easier to view and validate results.
 
