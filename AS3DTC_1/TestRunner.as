@@ -128,10 +128,10 @@ package
 			drawGrid();
 			for each(var disp:Sprite in items)
 			{
-				disp.graphics.beginFill( 0x0000FF , 1 );
-				disp.graphics.drawCircle( 5 , 5 , 5 );
-				disp.graphics.endFill();
-				disp.alpha = .2;
+				//disp.graphics.beginFill( 0x0000FF , 1 );
+				//disp.graphics.drawCircle( 5 , 5 , 5 );
+				//disp.graphics.endFill();
+				disp.alpha = 0;
 			}			
 			
 			var checkSpriteX:Number = checkSprite.x;

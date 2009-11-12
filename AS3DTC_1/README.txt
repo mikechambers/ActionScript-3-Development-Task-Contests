@@ -6,6 +6,9 @@ mesh@adobe.com
 
 Change Log
 
+Release 0.6 (November 12, 2009)
+	-checkResults now removes all result items from the stage. This makes it easier to view and validate results.
+
 Release 0.5 (November 12, 2009)
 	-All circles are now drawn so the top left of their bounds is at 0,0.
 
