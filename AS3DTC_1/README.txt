@@ -6,6 +6,9 @@ mesh@adobe.com
 
 Change Log
 
+Release 0.5 (November 12, 2009)
+	-All circles are now drawn so the top left of their bounds is at 0,0.
+
 Release 0.4 (November 11, 2009)
 	-bounds argument is now required in ProximityManager constructor. This specifies the bounds of the collision detection / grid area.
 
