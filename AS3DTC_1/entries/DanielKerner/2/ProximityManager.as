@@ -28,6 +28,8 @@ package
 	
 	import flash.display.DisplayObject;
 	import flash.geom.Rectangle;
+
+	import flash.utils.Dictionary;
 	
 	/**
 	 * ProximityManager 
