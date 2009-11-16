@@ -4,7 +4,15 @@ http://www.mikechambers.com/blog/2009/11/10/actionscript-3-development-task-cont
 Mike Chambers
 mesh@adobe.com
 
+Tests are compiled with Flex SDK 3.4 using the following command:
+
+mxmlc --target-player=10.0.0 -compiler.source-path ~/src/PerformanceTest/ -- TestRunner.as
+
+
 Change Log
+
+Release 0.8 (November 16, 2009)
+	-Added import for Vector class in TestRunner.as
 
 Release 0.7 (November 12, 2009)
 	-TestRunner now waits one second after it has loaded before it runs the performance tests.

@@ -44,6 +44,8 @@ package
 	import flash.events.Event;
 	import flash.events.TimerEvent;
 	import flash.utils.Timer;
+	
+	import __AS3__.vec.Vector;
 
 	[SWF(width="500", height="450", frameRate="24", backgroundColor="#FFFFFF")]
 	public class TestRunner extends Sprite
