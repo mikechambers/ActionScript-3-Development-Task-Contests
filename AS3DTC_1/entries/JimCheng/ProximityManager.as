@@ -32,7 +32,7 @@ package
 	import flash.display.DisplayObject;
 	import flash.geom.Rectangle;
 	
-	public class ProximityManager2
+	public class ProximityManager
 	{
 		/**
 		 *  Number of columns
@@ -71,7 +71,7 @@ package
 		 * @param	The bounds of the area to be managed.
 		 * 
 		 */
-		public function ProximityManager2(gridSize:uint, bounds:Rectangle = null)
+		public function ProximityManager(gridSize:uint, bounds:Rectangle = null)
 		{
 			// Since time in the constructor is not counted, we use this to set
 			// up some data structures for later use here to save time later.
