@@ -4,7 +4,7 @@ http://www.mikechambers.com/blog/2009/11/10/actionscript-3-development-task-cont
 Mike Chambers
 mesh@adobe.com
 
-Tests are compiled with Flex SDK 3.4 using the following command:
+Tests are compiled with Flex SDK 3.4 (Version 3.4.0 build 9271) using the following command:
 
 mxmlc --target-player=10.0.0 -compiler.source-path ~/src/PerformanceTest/ -- TestRunner.as
 
